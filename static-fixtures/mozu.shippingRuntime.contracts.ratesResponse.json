@@ -1,0 +1,42 @@
+{
+  "Rates": [
+    {
+      "CarrierId": "UPS",
+      "ShippingRates": [
+        {
+          "Code": "UPS_Sun",
+          "Amount": 10.0,
+          "ShippingItemRates": [
+            {
+              "ItemId": "d9f3d0299890409f9f2ea46400b7a7f6",
+              "Quantity": 4,
+              "Amount": 10.0
+            }
+          ]
+        },
+        {
+          "Code": "UPS_apple",
+          "Amount": 11.0,
+          "ShippingItemRates": [
+            {
+              "ItemId": "d9f3d0299890409f9f2ea46400b7a7f6",
+              "Quantity": 4,
+              "Amount": 11.0
+            }
+          ]
+        },
+        {
+          "Code": "UPS_Princess",
+          "Amount": 12.0,
+          "ShippingItemRates": [
+            {
+              "ItemId": "d9f3d0299890409f9f2ea46400b7a7f6",
+              "Quantity": 4,
+              "Amount": 12.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

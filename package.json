@@ -1,0 +1,37 @@
+{
+  "name": "mozu-action-simulator",
+  "version": "1.6.3",
+  "description": "Test fixtures, harnesses, and assertions for Mozu Code Actions.",
+  "author": "Volusion, LLC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mozu/mozu-action-simulator"
+  },
+  "main": "index.js",
+  "scripts": {
+    "ci-build": "echo No CI build available in cloud",
+    "ci-build-stable": "npm run ci-build",
+    "postci-build-stable": "mozu-validate-npm-package",
+    "test": "echo No test framework specified",
+    "cov": "echo No coverage system specified",
+    "preversion": "update-arc-defs",
+    "prepublish": "mozu-npm-publish-check",
+    "get-fixtures": "node ./build.js"
+  },
+  "keywords": [
+    "test",
+    "harness",
+    "mozu",
+    "simulator"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "mozu-metadata": "^2.3.6",
+    "mozu-node-sdk": "*"
+  },
+  "devDependencies": {
+    "array-unique": "^0.2.1",
+    "chalk": "^1.1.1",
+    "mozu-validate-npm-package": "^1.2.1"
+  }
+}

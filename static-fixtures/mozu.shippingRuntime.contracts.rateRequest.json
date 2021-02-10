@@ -1,0 +1,62 @@
+{
+  "ISOCurrencyCode": "USD",
+  "OriginAddress": {
+    "Address1": "1835 Kramer Lane",
+    "Address2": "#100",
+    "Address3": null,
+    "Address4": null,
+    "CityOrTown": "Austin",
+    "StateOrProvince": "TX",
+    "PostalOrZipCode": "78758",
+    "CountryCode": "US",
+    "AddressType": null,
+    "IsValidated": null
+  },
+  "DestinationAddress": {
+    "Address1": "7705 WALDON DR",
+    "Address2": "7705 WALDON DR",
+    "Address3": null,
+    "Address4": null,
+    "CityOrTown": "AUSTIN",
+    "StateOrProvince": "TX",
+    "PostalOrZipCode": "78750",
+    "CountryCode": "US",
+    "AddressType": "Residential",
+    "IsValidated": false
+  },
+  "ShippingServiceTypes": [],
+  "OrderTotal": 100,
+  "IsDestinationAddressCommercial": false,
+  "Items": [
+    {
+      "ItemId": "f6b552ef5a854e46a9eca46c012bd76c",
+      "ShipsByItself": false,
+      "ProductSummaries": [
+        {
+          "ProductCode": "1000000",
+          "ProductType": "Bottles",
+          "Categories": []
+        }
+      ],
+      "UnitMeasurements": {
+        "Height": {
+          "Unit": "in",
+          "Value": 1
+        },
+        "Width": {
+          "Unit": "in",
+          "Value": 1
+        },
+        "Length": {
+          "Unit": "in",
+          "Value": 1
+        },
+        "Weight": {
+          "Unit": "lbs",
+          "Value": 1
+        }
+      },
+      "Quantity": 5
+    }
+  ]
+}
